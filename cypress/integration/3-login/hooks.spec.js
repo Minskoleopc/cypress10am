@@ -1,7 +1,6 @@
 ///<reference types = "cypress"/>
 
 describe('Verify concept of hooks in js',function(){
-
     before(function(){
         cy.log('Before everthing')
     })

@@ -1,5 +1,7 @@
 ///<reference types = "cypress"/>
 
+// radio button and checkbox
+
 describe('verify the functionality for checkbox', function () {
 
     before(function () {
