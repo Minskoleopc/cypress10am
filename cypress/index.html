@@ -9,12 +9,20 @@
 <body>
 
     <h1>Fruits</h1>
-    <ul>
-        <li class = "one"  id = "two">Apple</li>
+    <ul id = "two">
+        <li>Apple</li>
         <li>Banana</li>
         <li>Mango</li>
         <li>Chikoo</li>
     </ul>
+
+
     
 </body>
 </html>
+
+cy.get('#two').children().should('have.length',4)
+cy.get('#two').children().first.should('have.text',)
+cy.get('#two').children().last.should('have.text',)
+
+// [li,li,li,li]
