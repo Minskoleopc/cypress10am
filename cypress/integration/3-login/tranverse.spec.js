@@ -94,11 +94,4 @@ describe('Tranverse method in cypress', function () {
 
   
 
-
-
-
-
-
-
-
 })
