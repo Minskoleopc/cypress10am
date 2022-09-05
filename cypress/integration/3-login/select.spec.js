@@ -14,7 +14,7 @@ describe('Verify the drop down list',function(){
         
     })
 
-    
+
     it('verify the drop-down one',function(){
         cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
         // Action 
@@ -78,7 +78,7 @@ describe('Verify the drop down list',function(){
 
     it.only('verify the select functionality via value attribute', function () {
         cy.visit('https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html')
-        cy.get('#dropdowm-menu-1').select('python').should('contain','Python')
+        cy.get('#dropdowm-menu-1').select('python').should('contain','Python')// incorrect
 
     })
 

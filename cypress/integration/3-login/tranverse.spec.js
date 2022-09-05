@@ -93,5 +93,7 @@ describe('Tranverse method in cypress', function () {
     })
 
   
-
 })
+
+// parent() -----> all parents
+// closet() -----> single element

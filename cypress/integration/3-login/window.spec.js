@@ -50,16 +50,17 @@ describe('Window command in cypress',function(){
         //     // win.history.go(1)
         // })
 
-        cy.go(-1)
-        cy.go(1)
-        cy.go('back')
-        cy.go('forward')
+        // cy.go(-1)
+        // cy.go(1)
+        // cy.go('back')
+        // cy.go('forward')
     
 
     })
 
 
-
+    // window -- location ,history 
+    // method -- document 
 
 
 })

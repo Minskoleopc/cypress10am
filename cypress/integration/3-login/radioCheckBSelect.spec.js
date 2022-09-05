@@ -64,7 +64,4 @@ describe('verify the functionality for checkbox', function () {
         cy.get('input[value="lettuce"]').should('be.enabled')
     })
 
-
-
-
 })
