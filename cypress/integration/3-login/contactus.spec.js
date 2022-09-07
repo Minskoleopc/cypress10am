@@ -2,6 +2,7 @@
 
 describe('verify the contact us form',function(){
 
+
     it.only('validate the sucessful submission of form',function(){
         cy.visit('http://www.webdriveruniversity.com/Contact-Us/contactus.html')
         cy.get('input[name="first_name"]').type('chinmay')
@@ -22,7 +23,7 @@ describe('verify the contact us form',function(){
         cy.get('input[type="submit"]').click()
         cy.get('body').should('contain',"Error: Invalid email address")
         
-        //"hello i am learning js" // contain-- js
+        
     })
     it('validate the  form with click on reset button',function(){
         cy.visit('http://www.webdriveruniversity.com/Contact-Us/contactus.html')
@@ -44,12 +45,7 @@ describe('verify the contact us form',function(){
         cy.get('h2[name="contactme"]').should('be.text','CONTACT US')
     })
 
-    it('validate the  heading of contactus form',function(){
-        cy.visit('http://www.webdriveruniversity.com/Contact-Us/contactus.html')
-        cy.get('h2[name="contactme"]').as('headingC')
-        cy.get('@headingC').should('be.visible')
-        cy.get('@headingC').should('be.text','CONTACT US')
-    })
+ 
 
 
 })

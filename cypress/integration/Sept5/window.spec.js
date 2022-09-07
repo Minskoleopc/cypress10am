@@ -68,6 +68,7 @@ describe('Window test commands',function(){
 
      })
 
+     // localstorage , sessionsession , cookie
 
 
 
