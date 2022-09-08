@@ -56,6 +56,23 @@ describe('verify the localstorage for app',function(){
     })
 
 
+    it.only('Verify the title with cypress command',function(){
+        // set 
+        cy.setCookie('username','amol')
+        // get
+        cy.getCookie('username')
+        //  update 
+        cy.setCookie('username',"chinmay")
+        //get
+        cy.getCookie('username')
+        //adding another cookie
+        cy.get('password','123')
+        // clearing cookie
+        cy.clearCookie('password')
+        // clearing all cookies
+        cy.clearCookies()
+    })
+
 
      // cypress --- async 
      // execute --- promises ---sync
