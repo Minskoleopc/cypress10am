@@ -6,8 +6,12 @@ describe('Tranverse method in cypress', function () {
     })
 
     // children() , first(), last(), eq() 
-
     // prev(), next(), siblings() , prevAll(), nextAll(), prevUntil() , nextUntil()
+    // find(), filter(), not()
+    // closest() // parent() , parents()
+    // parentsUntil()
+
+ 
     it('To get children of DOM elements, use the .children() command.', function () {
         cy.get('.traversal-button-states').children().should('have.length', 4)
     })
