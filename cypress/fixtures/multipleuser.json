@@ -1,0 +1,21 @@
+[
+    {
+        "firstName":"chinmay",
+        "lastName":"deshpande",
+        "email":"chinmaydeshpande010@gmail.com",
+        "comments":"i am new to js "
+    },
+    {
+        "firstName":"chinmay1",
+        "lastName":"deshpande1",
+        "email":"1chinmaydeshpande010@gmail.com",
+        "comments":"i am new to js11111111111111 "
+    },
+    {
+        "firstName":"chinmay2",
+        "lastName":"deshpande2",
+        "email":"1chinmaydeshpande010@gmail.com",
+        "comments":"i am new to js22222222222222 "
+    }
+
+]

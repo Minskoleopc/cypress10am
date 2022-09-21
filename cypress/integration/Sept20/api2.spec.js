@@ -39,11 +39,9 @@ describe('verify the create , update and delete', function () {
                 status: "active"
             }
         }).then(function (res) {
-            ///cy.log(res)
             expect(res.status).to.eql(201)
             return res.body.id
         }).then(function (id) {
-            //cy.log(id)
             cy.request({
                 method: "PUT",
                 url: `https://gorest.co.in/public/v2/users/${id}`,
@@ -58,7 +56,6 @@ describe('verify the create , update and delete', function () {
                 }
 
             }).then(function (res) {
-                //cy.log(res)
                 expect(res.status).to.eq(200)
                 return res.body.id
             }).then(function (id) {
@@ -68,7 +65,6 @@ describe('verify the create , update and delete', function () {
                     headers: {
                         'Authorization': `Bearer ${accessToken}`
                     }
-
                 }).then(function (res) {
                     expect(res.status).to.eq(204)
                 })
@@ -80,8 +76,5 @@ describe('verify the create , update and delete', function () {
 
 
     })
-
-
-
 
 })
